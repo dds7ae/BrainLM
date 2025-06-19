@@ -50,3 +50,11 @@ The weights for our pre-trained model can be downloaded from [huggingface](https
 # Environment Creation
 
 You'll probably need a separate environment to run larger models (111M and 650M), both of which require flash attention which can be tricky to install. Just run setup.sh to setup the environment.
+
+
+# My Own Setup:
+
+1. Clone the repo
+2. python3.10 -m venv . under repo root
+3. pip install -r requirements.local.txt
+
